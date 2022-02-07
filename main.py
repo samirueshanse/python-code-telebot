@@ -6,7 +6,7 @@ import requests
 from io import BytesIO
 
 
-TOKEN = "5006305449:AAG4G6hv4QbJOEIWCTJt6TyvYREgmkwYrUw"
+TOKEN = "5225796864:AAHhZvAnrqJlUajjS4J3vIDl7Dvf3Ylffvk"
 #This is my image link
 IMAGE_LINK = "https://www.google.com/url?sa=i&url=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fhello&psig=AOvVaw17eS1mFtOIMsRP-IziFl1F&ust=1640587879107000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCNifmp6lgvUCFQAAAAAdAAAAABAJ"
 bot = telebot.TeleBot(TOKEN)
