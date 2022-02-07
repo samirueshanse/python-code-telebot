@@ -44,3 +44,9 @@ def videonet(message):
     download_file(VIDEO_LINK, "myvideo.mp4")
     vidnet = open("myvideo.mp4", "rb")
     bot.send_video(message.chat.id, vidnet)
+
+while True:
+     try:
+         bot.polling()
+     except:
+         time.sleep(5)
